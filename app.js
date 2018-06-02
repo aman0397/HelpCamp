@@ -53,34 +53,3 @@ app.listen(process.env.PORT, process.env.IP, function()
 {
     console.log("The server has started!");
 });
-
-// Campground.create(
-//     {
-//         name: "Mandi", 
-//         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzRjg5uscOM3Tdntvd1LgJPpj8rpBc2mL0V9dwoGquCBqX1Dgr3Q",
-//         description: "This is the Prashar Lake Trek. It has both picturesque as well as religious significance"
-//     }, function(err, campground)
-//     {
-//       if(err)
-//       {
-//           console.log(err);
-//       }
-//       else
-//       {
-//           console.log("Newly created campground: ");
-//           console.log(campground);
-//       }
-//     });
-
-
-// var campgrounds =[
-//       {name: "Kheerganga", image:"http://monkinshorts.com/wp-content/uploads/2017/03/kheerganga_camps.jpg"},
-//       {name: "Mandi", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzRjg5uscOM3Tdntvd1LgJPpj8rpBc2mL0V9dwoGquCBqX1Dgr3Q"},
-//       {name: "Rishikesh", image:"https://static2.tripoto.com/media/filter/nl/img/7372/TripDocument/1503751976_a_camp_site_by_the_ganga_rishikesh.jpg"},
-//       {name: "Kheerganga", image:"http://monkinshorts.com/wp-content/uploads/2017/03/kheerganga_camps.jpg"},
-//       {name: "Mandi", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzRjg5uscOM3Tdntvd1LgJPpj8rpBc2mL0V9dwoGquCBqX1Dgr3Q"},
-//       {name: "Rishikesh", image:"https://static2.tripoto.com/media/filter/nl/img/7372/TripDocument/1503751976_a_camp_site_by_the_ganga_rishikesh.jpg"},
-//       {name: "Kheerganga", image:"http://monkinshorts.com/wp-content/uploads/2017/03/kheerganga_camps.jpg"},
-//       {name: "Mandi", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzRjg5uscOM3Tdntvd1LgJPpj8rpBc2mL0V9dwoGquCBqX1Dgr3Q"},
-//       {name: "Rishikesh", image:"https://static2.tripoto.com/media/filter/nl/img/7372/TripDocument/1503751976_a_camp_site_by_the_ganga_rishikesh.jpg"}
-//     ];
